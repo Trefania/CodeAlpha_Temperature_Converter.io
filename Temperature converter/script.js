@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const resultCelsiusText = document.getElementById("resultCelsius");
     const resultKelvinText = document.getElementById("resultKelvin");
     const resultFahrenheitText = document.getElementById("resultFahrenheit");
-
+    
     convertButton.addEventListener("click", function () {
         const inputTemperature = parseFloat(temperatureInput.value);
         const fromScale = fromScaleSelect.value;
